@@ -1,0 +1,49 @@
+:root {
+  --primery-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --main-beckground-color: #e5e5e5;
+  --dark-beckground-color: #2e2f42;
+  --hero-button: #4d5ae5;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: var(--dark-beckground-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  list-style: none;
+}
+
+/* header */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #4d5ae5;
+}
+
+/* button */
+.button {
+  color: var(--hero-button);
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* color of text #2E2F42 */
+/* color of small text #434455 */
+/* color of hero text #FFFFFF */
+/* logo #4D5AE5, #2E2F42 */
+/* footer text #E7E9FC */
+/* foter logo #4D5AE5, #F4F4FD */
+/* main beckground color #E5E5E5 */
