@@ -97,7 +97,11 @@ body {
 /* section 1 */
 
 .section-title {
+  font-weight: 500;
   color: var(--title-text-color);
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 /* footer */
