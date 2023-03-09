@@ -4,6 +4,7 @@
   --main-beckground-color: #e5e5e5;
   --dark-beckground-color: #2e2f42;
   --primery-brand: #4d5ae5;
+  --accent: #e7e9fc;
 }
 
 body {
@@ -45,6 +46,10 @@ body {
   font-weight: 500;
 }
 
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #404bbf;
@@ -75,10 +80,6 @@ body {
   color: #ffffff;
 }
 
-.site-nav .link {
-  color: var(--title-text-color);
-}
-
 /* button */
 .button {
   color: var(--hero-button);
@@ -86,6 +87,12 @@ body {
 
 .section-title {
   color: var(--title-text-color);
+}
+
+/* footer */
+.footer {
+  background-color: var(--dark-beckground-color);
+  color: var(--accent);
 }
 
 /* color of text #2E2F42 */
