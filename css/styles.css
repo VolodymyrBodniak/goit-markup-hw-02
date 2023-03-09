@@ -5,6 +5,7 @@
   --dark-beckground-color: #2e2f42;
   --primery-brand: #4d5ae5;
   --accent: #e7e9fc;
+  --white: #ffffff;
 }
 
 body {
@@ -84,7 +85,7 @@ body {
 
 /* button */
 .button {
-  color: var(--hero-button);
+  color: var(--white);
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -124,12 +125,3 @@ body {
 .decoration-color-footer {
   color: #f4f4fd;
 }
-
-/* #f4f4fd */
-/* color of text #2E2F42 */
-/* color of small text #434455 */
-/* color of hero text #FFFFFF */
-/* logo #4D5AE5, #2E2F42 */
-/* footer text #E7E9FC */
-/* foter logo #4D5AE5, #F4F4FD */
-/* main beckground color #E5E5E5 */
