@@ -3,7 +3,7 @@
   --title-text-color: #2e2f42;
   --main-beckground-color: #e5e5e5;
   --dark-beckground-color: #2e2f42;
-  --hero-button: #4d5ae5;
+  --primery-brand: #4d5ae5;
 }
 
 body {
@@ -21,14 +21,41 @@ body {
   list-style: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
 /* header */
-.site-nav .link {
-  color: var(--title-text-color);
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primery-brand);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
+}
+
+/* hero image */
+.hero-image {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
 }
 
 /* button */
