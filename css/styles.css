@@ -52,6 +52,13 @@ body {
 
 .contact {
   font-style: normal;
+}
+
+.email {
+  color: var(--primery-text-color);
+}
+
+.telephone {
   color: var(--primery-text-color);
 }
 
