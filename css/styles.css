@@ -95,7 +95,7 @@ body {
 }
 
 /* section 1 */
-.description {
+.description-title {
   font-weight: 500;
   color: var(--title-text-color);
   font-size: 20px;
