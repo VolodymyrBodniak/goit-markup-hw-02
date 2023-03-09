@@ -6,6 +6,8 @@
   --primery-brand: #4d5ae5;
   --accent: #e7e9fc;
   --white: #ffffff;
+  --light: #f4f4fd;
+  --pressed: #404bbf;
 }
 
 body {
@@ -25,6 +27,16 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+.button.primery {
+  color: var(--white);
+  background-color: var(--pressed);
+}
+
+.button.secondary {
+  color: var(--primery-brand);
+  background-color: var(--light);
 }
 
 /* header */
