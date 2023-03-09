@@ -41,8 +41,22 @@ body {
   color: var(--title-text-color);
 }
 
+.site-nav {
+  font-weight: 500;
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: #404bbf;
+}
+
+.contact {
+  font-style: normal;
+  color: var(--primery-text-color);
+}
+
+.contact-items .link:hover,
+.contact-items .link:focus {
   color: #404bbf;
 }
 
