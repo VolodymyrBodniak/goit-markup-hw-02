@@ -72,7 +72,7 @@ body {
 /* hero image */
 .hero-image {
   background-color: var(--dark-beckground-color);
-  color: #ffffff;
+  color: var(--white);
   text-align: center;
 }
 
