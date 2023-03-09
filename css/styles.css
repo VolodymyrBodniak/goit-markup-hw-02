@@ -37,6 +37,10 @@ body {
   color: var(--primery-brand);
 }
 
+.decoration-color {
+  color: var(--title-text-color);
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #404bbf;
