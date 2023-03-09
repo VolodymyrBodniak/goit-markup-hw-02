@@ -95,13 +95,22 @@ body {
 }
 
 /* section 1 */
-
 .description {
   font-weight: 500;
   color: var(--title-text-color);
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+
+/* section 2 */
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-text-color);
 }
 
 /* footer */
