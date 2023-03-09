@@ -95,6 +95,11 @@ body {
   color: var(--accent);
 }
 
+.decoration-color-footer {
+  color: #f4f4fd;
+}
+
+/* #f4f4fd */
 /* color of text #2E2F42 */
 /* color of small text #434455 */
 /* color of hero text #FFFFFF */
