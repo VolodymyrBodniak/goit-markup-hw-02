@@ -70,20 +70,25 @@ body {
 
 /* hero image */
 .hero-image {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
+  background-color: var(--dark-beckground-color);
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero-text {
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
 }
 
 /* button */
 .button {
   color: var(--hero-button);
+  background-color: #4d5ae5;
 }
+
+/* section 1 */
 
 .section-title {
   color: var(--title-text-color);
