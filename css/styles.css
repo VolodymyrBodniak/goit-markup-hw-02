@@ -54,11 +54,7 @@ body {
   font-style: normal;
 }
 
-.email {
-  color: var(--primery-text-color);
-}
-
-.telephone {
+.howtocontact {
   color: var(--primery-text-color);
 }
 
