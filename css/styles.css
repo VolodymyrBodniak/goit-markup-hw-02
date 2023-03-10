@@ -29,16 +29,6 @@ body {
   text-decoration: none;
 }
 
-.button.primery {
-  color: var(--white);
-  background-color: var(--pressed);
-}
-
-.button.secondary {
-  color: var(--primery-brand);
-  background-color: var(--light);
-}
-
 /* header */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -98,13 +88,23 @@ body {
 /* button */
 .button {
   color: var(--white);
-  background-color: #4d5ae5;
+  background-color: var(--primery-brand);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+}
+
+.button.primery {
+  color: var(--white);
+  background-color: var(--pressed);
+}
+
+.button.secondary {
+  color: var(--primery-brand);
+  background-color: var(--light);
 }
 
 /* section 1 */
