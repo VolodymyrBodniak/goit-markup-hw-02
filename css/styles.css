@@ -91,6 +91,17 @@ body {
 
 /* button */
 .button {
+  color: var(--white);
+  background-color: var(--primery-brand);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button-portfolio {
   color: var(--primery-brand);
   background-color: var(--light);
   font-family: "Roboto", sans-serif;
