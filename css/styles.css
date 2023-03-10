@@ -29,6 +29,10 @@ body {
   text-decoration: none;
 }
 
+.text {
+  color: var(--primery-text-color);
+}
+
 /* header */
 .logo {
   font-family: "Raleway", sans-serif;
