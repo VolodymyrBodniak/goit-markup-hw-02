@@ -11,14 +11,10 @@
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: var(--white);
   color: var(--primery-text-color);
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
 }
 
 .list {
@@ -31,6 +27,9 @@ body {
 
 .text {
   color: var(--primery-text-color);
+  line-height: 1.5;
+  /* or 150% */
+  letter-spacing: 0.02em;
 }
 
 /* header */
@@ -59,20 +58,23 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #404bbf;
+  color: var(--pressed);
 }
 
 .contact {
   font-style: normal;
 }
 
-.howtocontact {
+.contact-list {
   color: var(--primery-text-color);
+  line-height: 1.5;
+  /* or 150% */
+  letter-spacing: 0.02em;
 }
 
 .contact-items .link:hover,
 .contact-items .link:focus {
-  color: #404bbf;
+  color: var(--pressed);
 }
 
 /* hero image */
@@ -101,6 +103,12 @@ body {
   cursor: pointer;
 }
 
+.button:hover,
+.button:focus {
+  background-color: var(--pressed);
+  color: var(--white);
+}
+
 .button-portfolio {
   color: var(--primery-brand);
   background-color: var(--light);
@@ -112,7 +120,13 @@ body {
   cursor: pointer;
 }
 
-.button.primery {
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: var(--pressed);
+  color: var(--white);
+}
+
+/* .button.primery {
   color: var(--white);
   background-color: var(--pressed);
 }
@@ -120,7 +134,7 @@ body {
 .button.secondary {
   color: var(--primery-brand);
   background-color: var(--light);
-}
+} */
 
 /* section 1 */
 .description-title {
