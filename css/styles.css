@@ -28,7 +28,6 @@ body {
 .text {
   color: var(--primery-text-color);
   line-height: 1.5;
-  /* or 150% */
   letter-spacing: 0.02em;
 }
 
@@ -68,7 +67,6 @@ body {
 .contact-list {
   color: var(--primery-text-color);
   line-height: 1.5;
-  /* or 150% */
   letter-spacing: 0.02em;
 }
 
@@ -156,6 +154,13 @@ body {
 }
 
 /* section 3 */
+.our-team-section {
+  background-color: var(--light);
+}
+
+.team-list-item {
+  background-color: var(--white);
+}
 
 /* footer */
 .footer {
@@ -165,4 +170,9 @@ body {
 
 .decoration-color-footer {
   color: #f4f4fd;
+}
+
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
